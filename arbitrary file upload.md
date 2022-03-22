@@ -9,7 +9,7 @@ At "/common/upload" api, parameter "customPath" is used as 2nd param of storageS
 ![image](https://user-images.githubusercontent.com/9525971/159517821-df09bbbc-b1ce-42d6-897c-38cbaa83db75.png)<br>
 
 <br><br>
-> 3. In FileNameUtil.getFileName(), it just simply rename the basename of file with random uuid and concatenated the suffix;<br>
+> 3. In FileNameUtil.getFileName(), it just simply renames the basename of file with random uuid and concatenated the suffix;<br>
 ![image](https://user-images.githubusercontent.com/9525971/159519333-77f7b610-c87f-418c-8d06-a6e04097be92.png)
 
 <br><br>
@@ -22,7 +22,7 @@ At "/common/upload" api, parameter "customPath" is used as 2nd param of storageS
 ![image](https://user-images.githubusercontent.com/9525971/159520998-5591227f-b74e-4271-8bb3-419da38a1236.png)
 
 <br><br>
-> 6. Here we used /etc/bash_completion.d to add an shell script, so the RCE is will be triggered automatically each time the victim logs into bash, which is super ez to achieve.<br>
+> 6. Here we used /etc/bash_completion.d to add an shell script, so the RCE will be triggered automatically each time the victim logs into bash, which is super ez to achieve.<br>
 ![image](https://user-images.githubusercontent.com/9525971/159522138-e92ac3d0-b85b-4afa-b40c-2a2f0205f200.png)
 
 

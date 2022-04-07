@@ -1,11 +1,11 @@
-# Roothub_vulns / CVE-2022-28052
+# Roothub_vulns
 
 Vulnerable codes:
 
-## Bug 1:
+## Bug 1 / CVE-2022-27473:
 > Erroneously usage of "$" in mapper/TopicDao.xml:130:<br>
 ![image](https://user-images.githubusercontent.com/9525971/159167814-90697f99-74dc-496f-be04-c641db268602.png)<br><br>
-## Bug 2:
+## Bug 2 / CVE-2022-27472:
 > Erroneously usage of "$" in mapper/TopicDao.xml:516:<br>
 ![image](https://user-images.githubusercontent.com/9525971/159168468-e1956c80-26dd-4ad9-84ef-2939688cd907.png)
 

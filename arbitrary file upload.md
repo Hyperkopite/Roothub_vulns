@@ -1,4 +1,4 @@
-# Arbitrary file upload
+# Arbitrary file upload / CVE-2022-28052
 
 > 1. cn/roothub/web/front/CommonController.java:35<br>
 At "/common/upload" api, parameter "customPath" is used as 2nd param of storageService.store();<br>

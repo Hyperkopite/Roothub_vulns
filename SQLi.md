@@ -1,4 +1,4 @@
-# Roothub_vulns
+# Roothub_vulns / CVE-2022-28052
 
 Vulnerable codes:
 

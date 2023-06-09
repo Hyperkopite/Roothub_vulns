@@ -3,7 +3,7 @@ import unittest
 
 class TestCases(unittest.TestCase):
     def test01(self):
-        print('Happy Birthday, 曾老板!')
+        print('Happy Birthday')
 
 
 if __name__ == '__main__':
